@@ -119,6 +119,9 @@ INPUT demonstracoes/teorema-4.3.tex
 INPUT ./exercicios/exercicio-1.1.tex
 INPUT ./exercicios/exercicio-1.1.tex
 INPUT exercicios/exercicio-1.1.tex
+INPUT ./exercicios/exercicio-3.5.tex
+INPUT ./exercicios/exercicio-3.5.tex
+INPUT exercicios/exercicio-3.5.tex
 INPUT main.aux
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
