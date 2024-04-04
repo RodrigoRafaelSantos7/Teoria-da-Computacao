@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1712223588.62548 "/Users/rodrigosantos/Development/teoria-da-computacao/main.tex" "main.pdf" "main" 1712223591.7663 0
+["pdflatex"] 1712224675.92192 "/Users/rodrigosantos/Development/teoria-da-computacao/main.tex" "main.pdf" "main" 1712224679.06297 0
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1712172771.70863 1004 54797486969f23fa377b128694d548df ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1712172771.70981 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1712172771.85359 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -49,18 +49,19 @@
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty" 1712172782.18284 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def" 1712172783.03493 29918 d08e4795c0778dfb000e82d9225c6ce2 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/setspace/setspace.sty" 1712179301.20085 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
-  "/Users/rodrigosantos/Development/teoria-da-computacao/main.tex" 1712221512.61105 331 065c0949e4f03274f7108dac8bc53dae ""
+  "/Users/rodrigosantos/Development/teoria-da-computacao/main.tex" 1712223840.58709 430 1c2ed22c38b23ea9406bd87c50fc4773 ""
   "/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1712172881.49124 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1712172905.01654 21059309 e8ecbe59a88c977ffe82e4bd07cd85a9 ""
   "/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls" 1712172525.30485 20144 147463a6a579f4597269ef9565205cfe ""
   "/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo" 1712172525.30385 8449 f07039d8e4e89f21078d9b5137579bfc ""
-  "demonstracoes/teorema-2.5.tex" 1712221170.20776 612 60472f6850567d532e9e83a388afdbeb ""
-  "demonstracoes/teorema-4.3.tex" 1712223587.78362 2580 4f531ec81a94599ac48ea9fd13f1bd71 ""
+  "demonstracoes/teorema-2.5.tex" 1712224134.79779 591 c2871534e90efccf66737bf7c9f22e52 ""
+  "demonstracoes/teorema-4.3.tex" 1712224097.28689 2559 d2330652d26686a2f1a49a983b7a321d ""
+  "exercicios/exercicio-1.1.tex" 1712224674.89532 1232 f32c503d20e073aa281f5b43864ef4cd ""
   "images/nova_logo.png" 1712220179.76809 616314 ef76ee3cac5a3b43d625660ed590411d ""
   "layout/titlepage.tex" 1712220337.20989 416 29160b4cb1a973f881d1505d3460ce75 ""
-  "main.aux" 1712223591.61054 574 4bfea4ebc0d2424d7afd42e3151522e1 "pdflatex"
-  "main.tex" 1712221512.61105 331 065c0949e4f03274f7108dac8bc53dae ""
-  "main.toc" 1712223591.61173 416 dd89710aad10d09044a13fbddcadd6bc "pdflatex"
+  "main.aux" 1712224678.91966 889 0783e16a283f1f21ff6b991ee55f972c "pdflatex"
+  "main.tex" 1712223840.58709 430 1c2ed22c38b23ea9406bd87c50fc4773 ""
+  "main.toc" 1712224678.92071 608 c776354937441698bc4094ad49bdc692 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
