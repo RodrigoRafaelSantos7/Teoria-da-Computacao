@@ -1,0 +1,141 @@
+PWD /Users/rodrigosantos/Development/teoria-da-computacao
+INPUT /Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
+INPUT /Users/rodrigosantos/Development/teoria-da-computacao/main.tex
+OUTPUT main.log
+INPUT /Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
+INPUT /Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
+INPUT /Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
+INPUT /Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
+INPUT /Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/setspace/setspace.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/setspace/setspace.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./main.aux
+INPUT ./main.aux
+INPUT main.aux
+OUTPUT main.aux
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+INPUT ./layout/titlepage.tex
+INPUT ./layout/titlepage.tex
+INPUT layout/titlepage.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr17.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr17.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr17.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./images/nova_logo.png
+INPUT ./images/nova_logo.png
+INPUT ./images/nova_logo.png
+INPUT ./images/nova_logo.png
+OUTPUT main.pdf
+INPUT ./images/nova_logo.png
+INPUT ./images/nova_logo.png
+INPUT ./images/nova_logo.png
+INPUT /Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
+INPUT ./main.toc
+INPUT ./main.toc
+INPUT main.toc
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr8.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr6.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmex10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+OUTPUT main.toc
+INPUT ./demonstracoes/teorema-2.5.tex
+INPUT ./demonstracoes/teorema-2.5.tex
+INPUT demonstracoes/teorema-2.5.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmex10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT ./demonstracoes/teorema-4.3.tex
+INPUT ./demonstracoes/teorema-4.3.tex
+INPUT demonstracoes/teorema-4.3.tex
+INPUT main.aux
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb
