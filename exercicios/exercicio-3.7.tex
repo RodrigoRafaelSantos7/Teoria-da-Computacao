@@ -1,0 +1,8 @@
+\subsubsection{Exercício 7}
+
+\subsubsection*{Seja $L_n = \{0^k \ | \ \textrm{k é múltiplo de n} \}$. Mostre que $L_n$ é regular para qualquer $n \in \mathbb{N}^+$}
+
+\begin{spacing}{1.5}
+
+Fixamos $n \in \mathbb{N}^+$ qualquer. Descrevemos o automato finito determinista $(AFD)$ que reconhece a linguagem $L_n$ como, $M = (S, \Sigma, \delta, s, F)$. O conjunto de estados $S =  \{q_0, q_1, \hdots, q_{n-1}\}$, o alfabeto $\Sigma = \{0\}$, o estado inicial $s = q_0$ e $F=\{q_0\}$. Falta então definir $\delta$. $\delta(qi,0) = q_{(i+1) \ mod \ n}$. Vamos mostrar que $M$ reconhece $L_n$. Seja $w = 0^k \in L_n$, então $k$ é múltiplo de $n$ e $k = n \cdot m$ para algum $m \in \mathbb{N}$. Então, $\delta(q_0, 0) = q_0$, $\delta(q_0, 0) = q_0$, $\hdots$, $\delta(q_0, 0) = q_0$. Portanto, $q_0 \in F$ e $M$ aceita $w$. Seja $w = 0^k \in \Sigma^{*} - L_n$, então $k$ não é múltiplo de $n$ e $k = n \cdot m + r$ para algum $m \in \mathbb{N}$ e $r \in \{1, 2, \hdots, n-1\}$. Então, $\delta(q_0, 0) = q_r$ e $q_r \notin F$. Portanto, $M$ rejeita $w$. Portanto, $M$ reconhece $L_n$ e $L_n$ é regular.
+\end{spacing}

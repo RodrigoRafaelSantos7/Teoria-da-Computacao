@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.4.3)  4 APR 2024 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.4.3)  5 APR 2024 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -190,24 +190,24 @@ Overfull \hbox (4.60017pt too wide) in paragraph at lines 6--9
 \OT1/cmr/m/n/12 aceitam $\OML/cmm/m/it/12 L[]$ \OT1/cmr/m/n/12 e $\OML/cmm/m/it/12 L[]$ \OT1/cmr/m/n/12 respetivamente. Vamos construir um $\OML/cmm/m/it/12 AFD$ $M \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 S; \OT1/cmr/m/n/12 \OML/cmm/m/it/12 ; ; s; F\OT1/cmr/m/n/12 )$
  []
 
-[5]) [6] (main.aux)
+[5]) (exercicios/exercicio-3.6.tex) (exercicios/exercicio-3.7.tex) (exercicios/exercicio-3.8.tex [6]) [7] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2637 strings out of 476358
- 40237 string characters out of 2791097
- 1937493 words of memory out of 3000000
- 24716 multiletter control sequences out of 15000+600000
- 567745 words of font info for 73 fonts, out of 8000000 for 9000
+ 2665 strings out of 476358
+ 41072 string characters out of 2791097
+ 1938493 words of memory out of 3000000
+ 24733 multiletter control sequences out of 15000+600000
+ 568366 words of font info for 75 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  57i,8n,65p,2232b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
 </Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (7 pages, 558690 bytes).
+Output written on main.pdf (8 pages, 568756 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

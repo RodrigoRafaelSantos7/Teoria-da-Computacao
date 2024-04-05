@@ -122,6 +122,17 @@ INPUT exercicios/exercicio-1.1.tex
 INPUT ./exercicios/exercicio-3.5.tex
 INPUT ./exercicios/exercicio-3.5.tex
 INPUT exercicios/exercicio-3.5.tex
+INPUT ./exercicios/exercicio-3.6.tex
+INPUT ./exercicios/exercicio-3.6.tex
+INPUT exercicios/exercicio-3.6.tex
+INPUT ./exercicios/exercicio-3.7.tex
+INPUT ./exercicios/exercicio-3.7.tex
+INPUT exercicios/exercicio-3.7.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx6.tfm
+INPUT ./exercicios/exercicio-3.8.tex
+INPUT ./exercicios/exercicio-3.8.tex
+INPUT exercicios/exercicio-3.8.tex
 INPUT main.aux
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb

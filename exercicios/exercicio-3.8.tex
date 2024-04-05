@@ -1,0 +1,13 @@
+\subsubsection{Exercício 8}
+
+\subsubsection*{
+  Para uma linguagem $L \subseteq \Sigma^*$ definimos a operação:
+\[
+  \textrm{noPrefix}(L) = \{w \in L \ | \ \textrm{nenhum prefixo próprio de} w \textrm{pertence a } L \}
+\]
+Mostre que se L é regular então noPrefix(L) também é regular.}
+
+\begin{spacing}{1.5}
+  Seja $M=(S,\Sigma,\delta,s,F)$ um $AFD$ com função de transição total que aceita a linguagem $L$, ou seja $L = L(M)$. Queremos construir um $AFD$ $M'=(S',\Sigma,\delta',s',F')$ que aceita a linguagem $\textrm{noPrefix}(L)$.
+  Para tal queremos construir $M'$ de modo a obtermos apenas transições que vão para estados finais e não ter nenhuma transição que vem de um estado final. 
+\end{spacing}
