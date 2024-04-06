@@ -41,6 +41,8 @@ initial text=$ $, % sets the text that appears on the start arrow
 \theoremstyle{definition}
 \newtheorem{prob}{Problem}
 
+\section{Problem set 3}
+
 \begin{xca}
   Para cada uma das linguagens abaixo descreva um $AFD$ que a reconhece através do seu diagrama de estados e de uma definição formal
 \end{xca}
@@ -181,7 +183,7 @@ initial text=$ $, % sets the text that appears on the start arrow
 
   A descrição formal do $AFD$ é:
   \begin{center}
-    $M_3 = (\{q_{0011},q_{011},q_{001},q_{11},q_{01},q_{00},q_{1}, q_{0},q_{final}\}, \{0,1\},\delta,q_{0011}, \{q_{final}\})$
+    $M_4 = (\{q_{0011},q_{011},q_{001},q_{11},q_{01},q_{00},q_{1}, q_{0},q_{final}\}, \{0,1\},\delta,q_{0011}, \{q_{final}\})$
   \end{center}
   onde $\delta$ é representado da seguinte maneira:
 
@@ -200,6 +202,236 @@ initial text=$ $, % sets the text that appears on the start arrow
       $q_{final}$         & $\perp$            & $q_{final}$
     \end{tabular}
   \end{table}
+\end{prob}
+
+\pagebreak
+
+\begin{prob}
+  A linguagem $L$ das strings sobre $\{0, 1\}$ com um número par de $0's$ e um número ímpar de $1's$.
+
+  \begin{center}
+    \begin{tikzpicture}
+      \node[state, initial] (q00) {$q_{00}$};
+      \node[state, above right of=q00] (q10) {$q_{10}$};
+      \node[state, below right of=q00, accepting] (q01) {$q_{01}$};
+      \node[state, above right of=q01] (q11) {$q_{11}$};
+      \draw (q00) edge[bend left, above] node{0} (q10)
+      (q00) edge[bend right, below] node{1} (q01)
+      (q10) edge[bend left, below] node{0} (q00)
+      (q10) edge[bend left, above] node{1} (q11)
+      (q01) edge[bend right, above] node{1} (q00)
+      (q01) edge[bend left, above] node{0} (q11)
+      (q11) edge[bend left, below] node{0} (q01)
+      (q11) edge[bend left, below] node{1} (q10);
+    \end{tikzpicture}
+  \end{center}
+
+  A descrição formal do $AFD$ é:
+  \begin{center}
+    $M_5 = (\{q_{00},q_{10},q_{01},q_{11}\}, \{0,1\},\delta,q_{00}, \{q_{01}\})$
+  \end{center}
+  onde $\delta$ é representado da seguinte maneira:
+  \begin{table}[htbp]
+    \centering
+    \begin{tabular}{c|cc}
+      \textit{$\delta$} & \textit{0}        & \textit{1}        \\ \hline
+      \textit{$q_{00}$} & \textit{$q_{10}$} & \textit{$q_{01}$} \\
+      \textit{$q_{10}$} & \textit{$q_{00}$} & \textit{$q_{11}$} \\
+      \textit{$q_{01}$} & \textit{$q_{11}$} & \textit{$q_{00}$} \\
+      $q_{11}$          & $q_{01}$          & $q_{10}$
+    \end{tabular}
+  \end{table}
+\end{prob}
+
+\begin{prob}
+  A linguagem $L$ das strings sobre $\{0, 1\}$ que não contêm a substring $010$.
+
+  \begin{center}
+    \begin{tikzpicture}
+      \node[state, initial, accepting] (q010) {$q_{010}$};
+      \node[state, accepting, right of=q010] (q10) {$q_{10}$};
+      \node[state, accepting, right of=q10] (q0) {$q_{0}$};
+      \node[state, right of=q0] (qf) {$q_{final}$};
+      \draw (q010) edge[loop above] node{1} (q010)
+      (q010) edge[above] node{0} (q10)
+      (q10) edge[loop above] node{0} (q10)
+      (q10) edge[above] node{1} (q0)
+      (q0) edge[above] node{0} (qf)
+      (q0) edge[bend left, below] node{1} (q010)
+      (qf) edge[loop right] node{0,1} (qf);
+    \end{tikzpicture}
+  \end{center}
+
+  A descrição formal do $AFD$ é:
+  \begin{center}
+    $M_6 = (\{q_{010},q_{10},q_{0},q_{final}\}, \{0,1\},\delta,q_{010}, \{q_{010},q_{10},q_{0}\})$
+  \end{center}
+  \pagebreak
+  onde $\delta$ é representado da seguinte maneira:
+
+  \begin{table}[htbp]
+    \centering
+    \begin{tabular}{c|cc}
+      \textit{$\delta$}  & \textit{0}           & \textit{1}         \\ \hline
+      \textit{$q_{010}$} & \textit{$q_{10}$}    & \textit{$q_{010}$} \\
+      \textit{$q_{10}$}  & \textit{$q_{10}$}    & \textit{$q_{0}$}   \\
+      \textit{$q_{0}$}   & \textit{$q_{final}$} & \textit{$q_{010}$} \\
+      $q_{final}$        & $q_{final}$          & $q_{final}$
+    \end{tabular}
+  \end{table}
+\end{prob}
+
+\begin{prob}
+  A linguagem $L$ das strings sobre $\{0, 1\}$ com um número par de $0's$ e em que cada $0$ é sempre seguido de pelo menos um $1$.
+
+  \begin{center}
+    \begin{tikzpicture}
+      \node[state, initial] (q001) {$q_{001}$};
+      \node[state, right of=q001] (q01) {$q_{01}$};
+      \node[state, right of=q01] (q0) {$q_{0}$};
+      \node[state, below left of=q0] (q) {$q$};
+      \node[state, accepting,left of=q] (qf) {$q_{final}$};
+      \draw (q001) edge[loop above] node{1} (q001)
+      (q001) edge[above] node{0} (q01)
+      (q01) edge[above] node{1} (q0)
+      (q0) edge[loop above] node{1} (q0)
+      (q0) edge[bend left, below] node{0} (q)
+      (q) edge[below] node{1} (qf)
+      (qf) edge[bend left, below] node{0} (q01)
+      (qf) edge[loop left] node{1} (qf);
+    \end{tikzpicture}
+  \end{center}
+
+  A descrição formal do $AFD$ é:
+  \begin{center}
+    $M_7 = (\{q_{001},q_{01},q_{0},q,q_{final}\}, \{0,1\},\delta,q_{001}, \{q_{final}\})$
+  \end{center}
+  onde $\delta$ é representado da seguinte maneira:
+
+  \begin{table}[htbp]
+    \centering
+    \begin{tabular}{c|cc}
+      \textit{$\delta$}  & \textit{0}        & \textit{1}         \\ \hline
+      \textit{$q_{001}$} & \textit{$q_{01}$} & \textit{$q_{001}$} \\
+      \textit{$q_{01}$}  & \textit{$\perp$}  & \textit{$q_{0}$}   \\
+      \textit{$q_{0}$}   & \textit{$q$}      & \textit{$q_{0}$}   \\
+      $q$                & $\perp$           & $q_{final}$        \\
+      $q_{final}$        & $q_{01}$          & $q_{final}$
+    \end{tabular}
+  \end{table}
+\end{prob}
+
+\begin{prob}
+  A linguagem L das strings sobre $\{0\}$ com tamanho divisível por $2$ ou por $3$. $q_{ij}$ onde $i = n \% 2$ e $j = n \% 3$.
+
+  \begin{center}
+    \begin{tikzpicture}
+      \node[state, accepting, initial] (q00) {$q_{00}$};
+      \node[state, right of=q00] (q11) {$q_{11}$};
+      \node[state, accepting, right of=q11] (q02) {$q_{02}$};
+      \node[state, accepting, right of=q02] (q10) {$q_{10}$};
+      \node[state, accepting, below left of=q10] (q01) {$q_{01}$};
+      \node[state, left of=q01] (q12) {$q_{12}$};
+      \draw (q00) edge[above] node{0} (q11)
+      (q11) edge[above] node{0} (q02)
+      (q02) edge[above] node{0} (q10)
+      (q10) edge[bend left, above] node{0} (q01)
+      (q01) edge[above] node{0} (q12)
+      (q12) edge[bend left, below] node{0} (q00);
+    \end{tikzpicture}
+  \end{center}
+
+  A descrição formal do $AFD$ é:
+  \begin{center}
+    $M_8 = (\{q_{00},q_{11},q_{02},q_{10},q_{01},q_{12}\}, \{0\},\delta,q_{00}, \{q_{00},q_{02},q_{10},q_{01}\})$
+  \end{center}
+  onde $\delta$ é representado da seguinte maneira:
+  \begin{table}[htbp]
+    \centering
+    \begin{tabular}{c|c}
+      \textit{$\delta$} & \textit{0}        \\ \hline
+      \textit{$q_{00}$} & \textit{$q_{11}$} \\
+      \textit{$q_{11}$} & \textit{$q_{02}$} \\
+      \textit{$q_{02}$} & \textit{$q_{10}$} \\
+      $q_{10}$          & $q_{01}$          \\
+      $q_{01}$          & $q_{12}$          \\
+      $q_{12}$          & $q_{00}$
+    \end{tabular}
+  \end{table}
+\end{prob}
+
+\begin{prob}
+  A linguagem $L$ das strings sobre $\{A, C, G, T \}$ que contêm pelo menos uma ocorrência da substring $ACT$.
+
+  \begin{center}
+    \begin{tikzpicture}
+      \node[state, initial] (q0) {$q_{ACT}$};
+      \node[state, right of=q0] (q1) {$q_{CT}$};
+      \node[state, right of=q1] (q2) {$q_{T}$};
+      \node[state, right of=q2, accepting] (qf) {$q_{final}$};
+      \draw (q0) edge[loop above] node{C,G,T} (q0)
+      (q0) edge[bend left, above] node{A} (q1)
+      (q1) edge[loop above] node{A} (q1)
+      (q1) edge[bend left, above] node{T,G} (q0)
+      (q1) edge[bend left, above] node{C} (q2)
+      (q2) edge[bend left, above] node{A} (q1)
+      (q2) edge[above] node{T} (qf)
+      (qf) edge[loop right] node{A,C,G,T} (qf)
+      (q2) edge[bend left, below] node{G,C} (q0);
+    \end{tikzpicture}
+  \end{center}
+
+  A descrição formal do $AFD$ é:
+  \begin{center}
+    $M_9 = (\{q_{ACT},q_{CT},q_{T},q_{final}\}, \{A,C,G,T\},\delta,q_{ACT}, \{q_{final}\})$
+  \end{center}
+  onde $\delta$ é representado da seguinte maneira:
+
+  \begin{table}[htbp]
+    \centering
+    \begin{tabular}{c|cccc}
+      \textit{$\delta$} & \textit{A}  & C           & G           & T           \\ \hline
+      $q_{ACT}$         & $q_{CT}$    & $q_{ACT}$   & $q_{ACT}$   & $q_{ACT}$   \\
+      $q_{CT}$          & $q_{CT}$    & $q_{T}$     & $q_{ACT}$   & $q_{ACT}$   \\
+      $q_{T}$           & $q_{CT}$    & $q_{ACT}$   & $q_{ACT}$   & $q_{final}$ \\
+      $q_{final}$       & $q_{final}$ & $q_{final}$ & $q_{final}$ & $q_{final}$
+    \end{tabular}
+  \end{table}
+\end{prob}
+
+\begin{prob}
+  $L = \varnothing $
+
+  \begin{center}
+    \begin{tikzpicture}
+      \node[state, initial] (q0) {$q_0$};
+    \end{tikzpicture}
+  \end{center}
+
+  A descrição formal do $AFD$ é:
+  \begin{center}
+    $M_{10} = (\{q_{0}\}, \varnothing,\varnothing,q_{0}, \{\varnothing\})$
+  \end{center}
+\end{prob}
+
+\begin{prob}
+  $L = {\varepsilon}$
+
+  \begin{center}
+    \begin{tikzpicture}
+      \node[state, initial, accepting] (q0) {$q_0$};
+    \end{tikzpicture}
+  \end{center}
+
+  A descrição formal do $AFD$ é:
+  \begin{center}
+    $M_{11} = (\{q_{0}\}, \varnothing,\varnothing,q_{0}, \{q_0\})$
+  \end{center}
+\end{prob}
+
+\begin{prob}
+  $L = \{0, 1\}^{*} \setminus \{\varepsilon\}$
+
 
 \end{prob}
 

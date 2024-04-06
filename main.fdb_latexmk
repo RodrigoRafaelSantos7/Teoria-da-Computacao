@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1712363721.93547 "/Users/rodrigosantos/Development/teoria-da-computacao/main.tex" "main.pdf" "main" 1712363723.42247 0
+["pdflatex"] 1712403154.34086 "/Users/rodrigosantos/Development/teoria-da-computacao/main.tex" "main.pdf" "main" 1712403156.03129 0
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1712172771.70863 1004 54797486969f23fa377b128694d548df ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1712172771.70981 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1712172771.85359 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -9,6 +9,7 @@
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1712172771.87373 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1712172771.8758 940 228d6584342e91276bf566bcf9716b83 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm" 1712172780.78965 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm" 1712172780.78991 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmex10.tfm" 1712172780.79232 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi12.tfm" 1712172780.79391 1524 4414a8315f39513458b80dfc63bff03a ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi6.tfm" 1712172780.79444 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -22,6 +23,7 @@
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy8.tfm" 1712172780.80333 1120 8b7d695260f3cff42e636090a8002094 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmti10.tfm" 1712172780.80467 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1712172771.90181 34811 78b52f49e893bcba91bd7581cdc144c0 ""
+  "/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1712172771.90485 32080 340ef9bf63678554ee606688e7b5339d ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1712172772.05117 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1712172772.06973 36281 c355509802a035cadc5f15869451dcee ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1712172772.10607 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -121,11 +123,11 @@
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty" 1712172787.59441 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty" 1712172787.5928 325 f9f16d12354225b7dd52a3321f085955 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1712172791.81336 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "/Users/rodrigosantos/Development/teoria-da-computacao/main.tex" 1712363720.53545 7895 e0d244140b8a62b315176bab34e45e5a ""
+  "/Users/rodrigosantos/Development/teoria-da-computacao/main.tex" 1712403153.32071 16116 5a41b08110e12e4e044d9851cd874811 ""
   "/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1712351718.16672 219291 82fa3699fc928287b6f775bee64f2fdd ""
   "/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1712351752.31408 24238774 c3f745e1984dca3a2b596333bb24ea39 ""
-  "main.aux" 1712363723.22926 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
-  "main.tex" 1712363720.53545 7895 e0d244140b8a62b315176bab34e45e5a ""
+  "main.aux" 1712403155.86091 133 8de19c19c676f8cff5ce41eca35b46f9 "pdflatex"
+  "main.tex" 1712403153.32071 16116 5a41b08110e12e4e044d9851cd874811 ""
   (generated)
   "main.aux"
   "main.log"
