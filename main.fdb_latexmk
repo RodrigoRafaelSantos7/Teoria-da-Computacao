@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1712403154.34086 "/Users/rodrigosantos/Development/teoria-da-computacao/main.tex" "main.pdf" "main" 1712403156.03129 0
+["pdflatex"] 1712416617.3167 "/Users/rodrigosantos/Development/teoria-da-computacao/main.tex" "main.pdf" "main" 1712416619.03026 0
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1712172771.70863 1004 54797486969f23fa377b128694d548df ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1712172771.70981 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1712172771.85359 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -123,11 +123,11 @@
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty" 1712172787.59441 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty" 1712172787.5928 325 f9f16d12354225b7dd52a3321f085955 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1712172791.81336 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "/Users/rodrigosantos/Development/teoria-da-computacao/main.tex" 1712403153.32071 16116 5a41b08110e12e4e044d9851cd874811 ""
+  "/Users/rodrigosantos/Development/teoria-da-computacao/main.tex" 1712416616.45715 17111 ffce6f110f1a07a0b047545a37d85f99 ""
   "/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1712351718.16672 219291 82fa3699fc928287b6f775bee64f2fdd ""
   "/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1712351752.31408 24238774 c3f745e1984dca3a2b596333bb24ea39 ""
-  "main.aux" 1712403155.86091 133 8de19c19c676f8cff5ce41eca35b46f9 "pdflatex"
-  "main.tex" 1712403153.32071 16116 5a41b08110e12e4e044d9851cd874811 ""
+  "main.aux" 1712416618.86245 133 8de19c19c676f8cff5ce41eca35b46f9 "pdflatex"
+  "main.tex" 1712416616.45715 17111 ffce6f110f1a07a0b047545a37d85f99 ""
   (generated)
   "main.aux"
   "main.log"

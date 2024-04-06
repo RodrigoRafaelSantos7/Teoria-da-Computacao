@@ -399,8 +399,10 @@ initial text=$ $, % sets the text that appears on the start arrow
   \end{table}
 \end{prob}
 
+\pagebreak
+
 \begin{prob}
-  $L = \varnothing $
+  $L = \varnothing $ sobre $\{0,1\}$
 
   \begin{center}
     \begin{tikzpicture}
@@ -410,12 +412,13 @@ initial text=$ $, % sets the text that appears on the start arrow
 
   A descrição formal do $AFD$ é:
   \begin{center}
-    $M_{10} = (\{q_{0}\}, \varnothing,\varnothing,q_{0}, \{\varnothing\})$
+    $M_{10} = (\{q_{0}\}, \{0,1\},\delta,q_{0}, \varnothing)$
   \end{center}
+  onde $\delta$ é representado da seguinte maneira: $\delta:S\times \Sigma\to S$ dada por $\delta(q_0,0)=\bot$ e $\delta(q_0,1)=\bot$
 \end{prob}
 
 \begin{prob}
-  $L = {\varepsilon}$
+  $L = {\varepsilon}$ sobre $\{0,1\}$
 
   \begin{center}
     \begin{tikzpicture}
@@ -425,14 +428,36 @@ initial text=$ $, % sets the text that appears on the start arrow
 
   A descrição formal do $AFD$ é:
   \begin{center}
-    $M_{11} = (\{q_{0}\}, \varnothing,\varnothing,q_{0}, \{q_0\})$
+    $M_{11} = (\{q_{0}\}, \{0,1\},\delta, q_{0}, \{q_0\})$
   \end{center}
+  onde $\delta$ é representado da seguinte maneira: $\delta:S\times \Sigma\to S$ dada por $\delta(q_0,0)=\bot$ e $\delta(q_0,1)=\bot$
 \end{prob}
 
 \begin{prob}
   $L = \{0, 1\}^{*} \setminus \{\varepsilon\}$
 
+  \begin{center}
+    \begin{tikzpicture}
+      \node[state, initial] (q0) {$q_{0}$};
+      \node[state, right of=q0, accepting] (q1) {$q_{1}$};
+      \draw (q0) edge[above] node{0,1} (q1)
+      (q1) edge[loop right] node{0,1} (q1);
+    \end{tikzpicture}
+  \end{center}
 
+  A descrição formal do $AFD$ é:
+  \begin{center}
+    $M_{12} = (\{q_{0},q_1\}, \{0,1\},\delta, q_{0}, \{q_1\})$
+  \end{center}
+  onde $\delta$ é representado da seguinte maneira:
+  \begin{table}[htbp]
+    \centering
+    \begin{tabular}{c|cc}
+      \textit{$\delta$} & \textit{0} & 1       \\ \hline
+      $q_{0}$           & $q_{1}$    & $q_{1}$ \\
+      $q_{1}$           & $q_{1}$    & $q_{1}$
+    \end{tabular}
+  \end{table}
 \end{prob}
 
 \end{document}
