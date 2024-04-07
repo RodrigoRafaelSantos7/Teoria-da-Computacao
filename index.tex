@@ -552,26 +552,25 @@ Para cada uma das linguagens $L$ abaixo descreva um $AFD$ que a reconhece atrav�
 \subsection*{Exercício 5}
 \subsubsection*{Sejam $L_1$ e $L_2$ linguagens regulares sobre o mesmo alfabeto $\Sigma$. Mostre que $L_1 \cap L_2$ também é regular.}
 
-Como $L_1$ e $L_2$ são regulares, existem $AFD's \ M_1 = (S_1, \Sigma, \delta_1, s_1, F_1) \ \textrm{e} \ M_2 = (S_2, \Sigma, \delta_2, s_2, F_2)$, com funções de transição $\delta_1 \textrm{ e } \delta_2$ totais tal que $M_1$ e $M_2$ aceitam $L_1$ e $L_2$ respetivamente. Queremos construir um $AFD \ M$ a partir de $M_1$ e $M_2$ que reconhece $L_1 \cap L_2$. Dado um input $w$, queremos simular as computações de $M_1$ e $M_2$ em $w$ lado-a-lado, e aceitar $w$ exatamente quando ambos $M_1$ e $M_2$ aceitam $w$.
+Como $L_1$ e $L_2$ são regulares, existem $AFD's \ M_1 = (S_1, \Sigma, \delta_1, s_1, F_1)$ e $M_2 = (S_2, \Sigma, \delta_2, s_2, F_2)$, com funções de transição $\delta_1 $ e $ \delta_2$ totais tal que $M_1$ e $M_2$ aceitam $L_1$ e $L_2$ respetivamente. Queremos construir um $AFD \ M$ a partir de $M_1$ e $M_2$ que reconhece $L_1 \cap L_2$. Dado um input $w$, queremos simular as computações de $M_1$ e $M_2$ em $w$ lado-a-lado, e aceitar $w$ exatamente quando ambos $M_1$ e $M_2$ aceitam $w$.
 
 Para implementar a estratégia acima vamos definir um novo $AFD \ M = (S, \Sigma, \delta, s, F)$. Para tal necessitamos de a cada momento saber os estados atuais de $M_1$ e $M_2$ na computação. Ou seja os estados de $M$ podem ser descritos como \textit{pares} de estados de $M_1$ e $M_2$, em que cada par representam o estado atual dos dois $AFD's$. Portanto queremos $S = S_1 \times S_2$. Se $M$ estiver no estado $(q_1,q_2) \in S_1 \times S_2$ num dado ponto da computação e ler o símbolo $a \in \Sigma$, queremos simular a computação de $M_1$ e $M_2$, para tal deveríamos atualizar $q_1$ para $\delta_1(q_1, a)$ e $q_2$ para $\delta_2(q_2, a)$. Definimos então a função de transição $\delta$ como
 \[
   \delta((q_1,q_2),a) = (\delta_1(q_1, a), \delta_2(q_2, a)).
 \]
-Para o estado inicial de $M$, queremos escolher o par de estados iniciais de $M_1$ e $M_2$. Escrevemos então $s = (s_1,s_2)$. Resta especificar $F$, o conjunto de estados finais de $M$. Queremos aceitar $w$ se ambas as computação de $M_1$ e $M_2$ acabarem em estados de aceitação. Para tal queremos escolher $F$ como o conjunto de pares $(q_1,q_2) \in S$ tal que $q_1 \in F_1 \ \textrm{e} \ q_2 \in F_2$. Ou seja definimos o conjunto de estados de aceitação $F$ como
+Para o estado inicial de $M$, queremos escolher o par de estados iniciais de $M_1$ e $M_2$. Escrevemos então $s = (s_1,s_2)$. Resta especificar $F$, o conjunto de estados finais de $M$. Queremos aceitar $w$ se ambas as computação de $M_1$ e $M_2$ acabarem em estados de aceitação. Para tal queremos escolher $F$ como o conjunto de pares $(q_1,q_2) \in S$ tal que $q_1 \in F_1 $ e $q_2 \in F_2$. Ou seja definimos o conjunto de estados de aceitação $F$ como
 \[
   F = (F_1 \times F_2)
 \]
-Agora que definimos $M$ formalmente, queremos provar que $L(M) = L_1 \cap L_2$.Para tal vamos mostrar $L(M) \subseteq L_1 \cap L_2$ e $L_1 \cap L_2 \subseteq L(M)$. Comecemos por supor que $w \in \Sigma^\ast$, arbitrário. Denotemos a sequência de estados gerada por $w$ em $M_i$ por $(r_0^{(i)},r_1^{(i)},\dots,r_n^{(i)})$ para $i \in \{1,2\}$ e $n \in \mathbb{N}$. Se $w \in L_1 \cap L_2$, pela definição de $M_1$ e $M_2$ temos que $r_n^{(1)} \in F_1 \ \textrm{e} \ r_n^{(2)} \in F_2$. Deste modo concluímos que $\delta(w) = (r_n^{(1)}, r_n^{(2)}) \in F$. Como $W$ é arbitrário, segue que $L_1 \cap L_2 \subseteq L(M)$. Por outro lado, se $w \notin L_1 \cap L_2$, então temos que $r_n^{(1)} \notin F_1 \ \textrm{e} \ r_n^{(2)} \notin F_2$, o que leva a $(r_n^{(1)}, r_n^{(2)}) \notin F$, portanto $w \notin L(M)$. Logo, $L(M) \subseteq L_1 \cap L_2$, e concluímos que $L(M) = L_1 \cap L_2$.
+Agora que definimos $M$ formalmente, queremos provar que $L(M) = L_1 \cap L_2$.Para tal vamos mostrar $L(M) \subseteq L_1 \cap L_2$ e $L_1 \cap L_2 \subseteq L(M)$. Comecemos por supor que $w \in \Sigma^\ast$, arbitrário. Denotemos a sequência de estados gerada por $w$ em $M_i$ por $(r_0^{(i)},r_1^{(i)},\dots,r_n^{(i)})$ para $i \in \{1,2\}$ e $n \in \mathbb{N}$. Se $w \in L_1 \cap L_2$, pela definição de $M_1$ e $M_2$ temos que $r_n^{(1)} \in F_1 $ e $r_n^{(2)} \in F_2$. Deste modo concluímos que $\delta(w) = (r_n^{(1)}, r_n^{(2)}) \in F$. Como $W$ é arbitrário, segue que $L_1 \cap L_2 \subseteq L(M)$. Por outro lado, se $w \notin L_1 \cap L_2$, então temos que $r_n^{(1)} \notin F_1 $ e $r_n^{(2)} \notin F_2$, o que leva a $(r_n^{(1)}, r_n^{(2)}) \notin F$, portanto $w \notin L(M)$. Logo, $L(M) \subseteq L_1 \cap L_2$, e concluímos que $L(M) = L_1 \cap L_2$.
 
 \subsection*{Exercício 6}
 \subsubsection*{Dada uma string $w = w_1w_2\dots w_n \in \Sigma^\ast$ definimos o seu reverso $rev(w) = w_{n}w_{n-1}\dots w_2w_1$. Para uma linguagem $L \subseteq \Sigma^\ast$, definimos $rev(L) = {rev(w) | w \in L}$. Mostre que se $L$ é regular então $rev(L)$ também é regular.}
 
 Resolver com um AFN .-.
 
-
 \subsection*{Exercício 7}
-\subsubsection*{Seja $L_n = {0^k | k \textrm{ é múltiplo de }n}$. Mostre que $L_n$ é regular para qualquer $n \in \mathbb{N}^+$.}
+\subsubsection*{Seja $L_n = \{0^k | \ k $ é múltiplo de $n \}$. Mostre que $L_n$ é regular para qualquer $n \in \mathbb{N}^+$.}
 
 Fixamos $n \in \mathbb{N}^+$. Queremos mostrar que o $AFD \ M = (S,\Sigma,\delta,s,F)$, reconhece $L_n$ \textit{i.e} $L(M) = L_n$.
 
