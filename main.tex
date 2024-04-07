@@ -367,7 +367,7 @@ onde $\delta$ é representado da seguinte maneira:
     (q2) edge[bend left, above] node{A} (q1)
     (q2) edge[above] node{T} (qf)
     (qf) edge[loop right] node{A,C,G,T} (qf)
-    (q2) edge[bend left, below] node{G,C} (q0);
+    (q2) edge[bend left=40, below] node{G,C} (q0);
   \end{tikzpicture}
 \end{center}
 
@@ -563,5 +563,38 @@ Para o estado inicial de $M$, queremos escolher o par de estados iniciais de $M_
   F = (F_1 \times F_2)
 \]
 Agora que definimos $M$ formalmente, queremos provar que $L(M) = L_1 \cap L_2$.Para tal vamos mostrar $L(M) \subseteq L_1 \cap L_2$ e $L_1 \cap L_2 \subseteq L(M)$. Comecemos por supor que $w \in \Sigma^\ast$, arbitrário. Denotemos a sequência de estados gerada por $w$ em $M_i$ por $(r_0^{(i)},r_1^{(i)},\dots,r_n^{(i)})$ para $i \in \{1,2\}$ e $n \in \mathbb{N}$. Se $w \in L_1 \cap L_2$, pela definição de $M_1$ e $M_2$ temos que $r_n^{(1)} \in F_1 \ \textrm{e} \ r_n^{(2)} \in F_2$. Deste modo concluímos que $\delta(w) = (r_n^{(1)}, r_n^{(2)}) \in F$. Como $W$ é arbitrário, segue que $L_1 \cap L_2 \subseteq L(M)$. Por outro lado, se $w \notin L_1 \cap L_2$, então temos que $r_n^{(1)} \notin F_1 \ \textrm{e} \ r_n^{(2)} \notin F_2$, o que leva a $(r_n^{(1)}, r_n^{(2)}) \notin F$, portanto $w \notin L(M)$. Logo, $L(M) \subseteq L_1 \cap L_2$, e concluímos que $L(M) = L_1 \cap L_2$.
+
+\subsection*{Exercício 6}
+\subsubsection*{Dada uma string $w = w_1w_2\dots w_n \in \Sigma^\ast$ definimos o seu reverso $rev(w) = w_{n}w_{n-1}\dots w_2w_1$. Para uma linguagem $L \subseteq \Sigma^\ast$, definimos $rev(L) = {rev(w) | w \in L}$. Mostre que se $L$ é regular então $rev(L)$ também é regular.}
+
+Resolver com um AFN .-.
+
+
+\subsection*{Exercício 7}
+\subsubsection*{Seja $L_n = {0^k | k \textrm{ é múltiplo de }n}$. Mostre que $L_n$ é regular para qualquer $n \in \mathbb{N}^+$.}
+
+Fixamos $n \in \mathbb{N}^+$. Queremos mostrar que o $AFD \ M = (S,\Sigma,\delta,s,F)$, reconhece $L_n$ \textit{i.e} $L(M) = L_n$.
+
+\begin{center}
+  \begin{tikzpicture}
+    \node[state, initial, accepting] (q0) {$q_0$};
+    \node[state, right of= q0] (q1) {$q_1$};
+    \node[state, right of= q1] (q2) {$q_2$};
+    \node[state, below left of= q2] (q3) {$q_3$};
+    \node[state, left of= q3] (q4) {$q_4$};
+    \draw[dashed, shorten <=3mm, shorten >=3mm] (q4) to[bend left=20] (q0);
+    \draw (q0) edge[above] node{0} (q1)
+    (q1) edge[above] node{0} (q2)
+    (q2) edge[bend left, below] node{0} (q3)
+    (q3) edge[below] node{0} (q4);
+  \end{tikzpicture}
+\end{center}
+
+Vamos definir $M$. Comecemos pelo conjunto de estados $S$. Queremos cobrir todos os multiplos possíveis, comecando no $q_0$, para tal vamos ter $m - 1$ estados tal que $m$ é o número de multiplos possíveis ou seja, $S = \{q_0,q_1,q_2,\dots , q_{m-1}\}$. Intuitivamente $\Sigma = 0$. O estado inicial $q$ será o estado $q_0$, portanto $s=q_0$. O conjunto de estados finais $F$ é dado por um único estado $q_0$ o que se traduz para $F = \{q_0\}$. Falta nos então definir $\delta$. Em cada estado $q_i \in S$ queremos ler o símbolo $'0'$ repetindo ciclicamente até chegar ao estado final $q_0$. Portanto obtemos:
+\[
+  \delta(q_i,0) = q_{(i+1) \% n}
+\]
+Desta forma, $M$ reconhece sequência de potências de $0$ cujo expoente seja um múltiplo de $n$. Portanto agora falta-nos provar que $L(M) = L_n$. Para tal vamos demonstrar que $L(M) \subseteq L_n$ e $L_n \subseteq L(M)$. Comecemos por supor que $w \in \Sigma^\ast$, arbitrário. Denotemos a sequência de estados gerado por $w$ em $M$ por $(q_0,q_1,q_2,\dots , q_{i})$ com $i \in \mathbb{N}$. Se $w \in L_n$ pela definição de $L_n \ , q_i \in F$. Como $F = \{q_0\}$, $q_i = q_0$. Ou seja $\delta(w) = q_0 \in F$. Visto que $w$ é arbitrário, segue que $L_n \subseteq L(M)$. Por outro lado, se $w \notin L_n$ então $q_i \notin F$, pelo que $q_i \neq q_0$. Como $F = \{q_0\}$ e $q_i \neq q_0$, $w \notin L(M)$. Logo, $L(M) \subseteq L_n$, e concluímos que $L(M) = L_n$.
+
 
 \end{document}
