@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1712501710.92951 "/Users/rodrigosantos/Development/teoria-da-computacao/problemSet3/problemSet3.tex" "problemSet3.pdf" "problemSet3" 1712501715.12022 0
+["pdflatex"] 1712501761.89201 "/Users/rodrigosantos/Development/teoria-da-computacao/problemSet3/problemSet3.tex" "problemSet3.pdf" "problemSet3" 1712501765.07049 0
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1712172771.70863 1004 54797486969f23fa377b128694d548df ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1712172771.70981 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1712172771.85359 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -130,11 +130,11 @@
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty" 1712172787.5928 325 f9f16d12354225b7dd52a3321f085955 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/layout.sty" 1712172783.22706 14907 98a76c7d1c827d251e695e70bd4abbbc ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1712172791.81336 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "/Users/rodrigosantos/Development/teoria-da-computacao/problemSet3/problemSet3.tex" 1712501706.55496 26548 cba15cc7c0200e5f9202a174faa326fb ""
+  "/Users/rodrigosantos/Development/teoria-da-computacao/problemSet3/problemSet3.tex" 1712501757.09805 26511 f27e6d59096c6149b33d2bdfd93c0850 ""
   "/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1712351718.16672 219291 82fa3699fc928287b6f775bee64f2fdd ""
   "/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1712351752.31408 24238774 c3f745e1984dca3a2b596333bb24ea39 ""
-  "problemSet3.aux" 1712501714.90567 32 1b174032087fb90900fa6203d3bb0a7e "pdflatex"
-  "problemSet3.tex" 1712501706.55496 26548 cba15cc7c0200e5f9202a174faa326fb ""
+  "problemSet3.aux" 1712501764.85571 32 f852561997c05a7d986acd1deeb530ec "pdflatex"
+  "problemSet3.tex" 1712501757.09805 26511 f27e6d59096c6149b33d2bdfd93c0850 ""
   (generated)
   "problemSet3.aux"
   "problemSet3.log"
