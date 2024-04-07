@@ -5,8 +5,6 @@
 \usetikzlibrary{automata, positioning, arrows}
 \usetikzlibrary{calc}
 
-\usepackage{chngcntr}
-
 
 \tikzset{
 ->, % makes the edges directed
@@ -16,36 +14,12 @@ every state/.style={thick, fill=gray!10}, % sets the properties for each ’stat
 initial text=$ $, % sets the text that appears on the start arrow
 }
 
-\makeatletter
-\def\lecture{\@ifnextchar[{\@lectureWith}{\@lectureWithout}}
-\def\@lectureWith[#1]{\medbreak\refstepcounter{section}%
-  \renewcommand{\leftmark}{Lecture \thesection}
-  \noindent{\addcontentsline{toc}{section}{Lecture \thesection: #1\@addpunct{.}}%
-  \sectionfont Lecture \thesection. #1\@addpunct{.}}\medbreak}
-\def\@lectureWithout{\medbreak\refstepcounter{section}%
-  \renewcommand{\leftmark}{Lecture \thesection}
-  \noindent{\addcontentsline{toc}{section}{Lecture \thesection.}%
-  \sectionfont Lecture \thesection.}\medbreak}
-\makeatother
-
-\makeatletter
-\def\sectionfont{\normalfont}
-\makeatother
-
 \title{Teoria da computação}
 \author{Rodrigo Santos}
 \begin{document}
 \maketitle
 
-\renewcommand{\thesubsection}{\arabic{subsection}}
-
-
-\theoremstyle{plain}
-\newtheorem{xca}{Exercise}
-\theoremstyle{definition}
-\newtheorem{prob}{Problem}
-
-\section{Problem set 3}
+\section*{Problem set 3}
 
 \subsection*{Exercício 1}
 Para cada uma das linguagens abaixo descreva um $AFD$ que a reconhece através do seu diagrama de estados e de uma definição formal
@@ -224,7 +198,7 @@ A descrição formal do $AFD$ é:
 \begin{center}
   $M_5 = (\{q_{00},q_{10},q_{01},q_{11}\}, \{0,1\},\delta,q_{00}, \{q_{01}\})$
 \end{center}
-onde $\delta$ é representado da seguinte maneira:
+onde $\delta$ é representado da seguinte maneira<:
 \begin{table}[htbp]
   \centering
   \begin{tabular}{c|cc}

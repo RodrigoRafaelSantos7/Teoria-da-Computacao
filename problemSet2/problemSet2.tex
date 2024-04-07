@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage{tikz}
+\usepackage{amssymb}
+
+\title{Teoria da computação}
+\author{Rodrigo Santos}
+\begin{document}
+\maketitle
+
+\section*{Problem set 2}
+\subsubsection*{Exercício 1}
+Sejam $A$ e $B$ conjuntos quaisquer. Determine, justificando com uma demonstração ou um contra-exemplo, a veracidade das seguintes asserções
+
+\subsubsection*{(a) Se $A$ é contável então $A \cap B$ também é contável.}
+Seja $B$ arbitrário $A \cap B \subseteq A$ para qualquer $B$, pela definição de interseção. Portanto $\forall_x \in A \cap B \Rightarrow x \in A$. Temos que todos os elementos de $A \cap B$ estão contidos em $A$, como $A$ é contável, $A \cap B$ é contável.
+
+\subsubsection*{(b) Se $A$ não é contável, então $A \cap B$ também não é contável.}
+Seja $A = \mathbb{R}$ que é não contável, \textit{Cantor}. Seja $B = \varnothing$ que é um conjunto contável. Temos então que $A \cap B = \varnothing$ que é conjunto contável. Portanto arranjámos um contra-exemplo, em que $A$ não é contável e $A \cap B$ é contável. Logo a asserção inicial é falsa.
+
+\subsubsection*{(c) Se $A$ é contável, então $A \cup B$ também é contável.}
+Seja $A = \varnothing$ que é um conjunto contável. Seja $B = \mathbb{R}$ que é um conjunto não contável, \textit{Cantor}. $A \cup B = \mathbb{R}$ que é um conjunto não contável. Portanto arranjámos um contra-exemplo, em que $A$ é contável e $A \cup B$ não é contável. Logo a asserção inicial é falsa.
+
+\subsubsection*{(d) Se $A$ é contável, então $B \setminus A$ também é contável.}
+Seja $A = \varnothing$ que é um conjunto contável. Seja $B = \mathbb{R}$ que é um conjunto não contável, \textit{Cantor}. $B \setminus A = \mathbb{R}$ que é um conjunto não contável. Portanto arranjámos um contra-exemplo, em que $A$ é contável e $B \setminus A$ não é contável. Logo a asserção inicial é falsa.
+
+\subsubsection*{(e)  Se $A$ é contável, então $A^\ast$ também é contável.}
+Comecemos por denotar $A^\ast$ como:
+\[
+  A^\ast = \bigcup_{i \in \mathbb{N}} A^{i} = \epsilon \cup A \cup A^2 \cup \dots \cup A^{i}
+\]
+Sabemos que $A \times A$ é contável pois é o produto cartesiano entre dois conjuntos contáveis. Logo $A^i = (A \times \cdots \times A) \times A$ é um conjunto contável. Concluimos que se trata da união indexada em $\mathbb{N}$ de conjuntos contáveis, que é contável. Portanto $A^\ast$ é contável se $A$ é contável. Logo a asserção inicial é verdadeira.
+
+\subsection*{Exercício 2}
+Determine, justificando, se cada um dos seguintes conjuntos é contável ou não contável
+\subsubsection*{(a) O conjunto das funções de \{0, 1\} para \{0, 1\}.}
+
+\end{document}
+
