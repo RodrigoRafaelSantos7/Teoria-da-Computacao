@@ -596,5 +596,4 @@ Vamos definir $M$. Comecemos pelo conjunto de estados $S$. Queremos cobrir todos
 \]
 Desta forma, $M$ reconhece sequência de potências de $0$ cujo expoente seja um múltiplo de $n$. Portanto agora falta-nos provar que $L(M) = L_n$. Para tal vamos demonstrar que $L(M) \subseteq L_n$ e $L_n \subseteq L(M)$. Comecemos por supor que $w \in \Sigma^\ast$, arbitrário. Denotemos a sequência de estados gerado por $w$ em $M$ por $(q_0,q_1,q_2,\dots , q_{i})$ com $i \in \mathbb{N}$. Se $w \in L_n$ pela definição de $L_n \ , q_i \in F$. Como $F = \{q_0\}$, $q_i = q_0$. Ou seja $\delta(w) = q_0 \in F$. Visto que $w$ é arbitrário, segue que $L_n \subseteq L(M)$. Por outro lado, se $w \notin L_n$ então $q_i \notin F$, pelo que $q_i \neq q_0$. Como $F = \{q_0\}$ e $q_i \neq q_0$, $w \notin L(M)$. Logo, $L(M) \subseteq L_n$, e concluímos que $L(M) = L_n$.
 
-
 \end{document}
