@@ -1,14 +1,28 @@
 \documentclass{article}
+\usepackage[
+    left=1.2in,
+    right=1.2in,
+    top=0.4in,
+    bottom=0.7in,
+    paperheight=11in,
+    paperwidth=8.5in
+]{geometry}
+
 \usepackage{amsthm}
 \usepackage{tikz}
 \usepackage{amssymb}
+\usetikzlibrary{shapes.geometric,fit}
 
-\title{Teoria da computação}
-\author{Rodrigo Santos}
+
+\usepackage{layout}
+\title{Teoria da computação \large \\ Problem set 2}
+\author{Rodrigo Santos\\
+  \small Universidade NOVA de Lisboa\\\\
+}
+\date{\vspace{-5ex}}
+
 \begin{document}
 \maketitle
-
-\section*{Problem set 2}
 \subsubsection*{Exercício 1}
 Sejam $A$ e $B$ conjuntos quaisquer. Determine, justificando com uma demonstração ou um contra-exemplo, a veracidade das seguintes asserções
 
@@ -34,6 +48,20 @@ Sabemos que $A \times A$ é contável pois é o produto cartesiano entre dois co
 \subsection*{Exercício 2}
 Determine, justificando, se cada um dos seguintes conjuntos é contável ou não contável
 \subsubsection*{(a) O conjunto das funções de \{0, 1\} para \{0, 1\}.}
+Comecemos por escrever o conjunto das funções $S$ das funções de \{0, 1\} para \{0, 1\}. Obtemos
+\[
+  S = \{f: \{0,1\} \mapsto \{0,1\}\} = \bigcup_{n,k \in \{0, 1\}} \{\{(0,k),(1,n)\}\}
+\]
+Portanto o conjunto $S$ é a união indexada em $\mathbb{N}$ de conjunto do tipo $\{(0,k),(1,n)\}$ com $k,n \in \{0, 1\}$ que são trivialmente finitos, pelo que são contáveis. Logo trata-se da união indexada em $\mathbb{N}$ de conjuntos contáveis que é contável.
+
+\subsubsection*{(b) O conjunto das funções de \{0, 1\} para $\mathbb{N}$.}
+Comecemos por escrever o conjunto das funções $S$ das funções de \{0, 1\} para $\mathbb{N}$. Obtemos
+\[
+  S = \{f: \{0,1\} \mapsto \mathbb{N}\} = \bigcup_{n,k \in \mathbb{N}} \{\{(0,k),(1,n)\}\}
+\]
+Portanto o conjunto $S$ é a união indexada em $\mathbb{N}$ de conjunto do tipo $\{(0,k),(1,n)\}$ com $k,n \in \mathbb{N}$ que são trivialmente finitos, pelo que são contáveis. Logo trata-se da união indexada em $\mathbb{N}$ de conjuntos contáveis que é contável.
+
+\subsubsection*{(c) O conjunto das funções de $\mathbb{N}$ para $\mathbb{N}$.}
 
 \end{document}
 

@@ -1,4 +1,13 @@
 \documentclass{article}
+\usepackage[
+    left=1.2in,
+    right=1.2in,
+    top=0.4in,
+    bottom=0.7in,
+    paperheight=11in,
+    paperwidth=8.5in
+]{geometry}
+
 \usepackage{amsthm}
 \usepackage{tikz}
 \usepackage{amssymb}
@@ -14,13 +23,15 @@ every state/.style={thick, fill=gray!10}, % sets the properties for each ’stat
 initial text=$ $, % sets the text that appears on the start arrow
 }
 
-\title{Teoria da computação}
-\author{Rodrigo Santos}
+\usepackage{layout}
+\title{Teoria da computação \large \\ Problem set 3}
+\author{Rodrigo Santos\\
+  \small Universidade NOVA de Lisboa\\\\
+}
+\date{\vspace{-5ex}}
+
 \begin{document}
 \maketitle
-
-\section*{Problem set 3}
-
 \subsection*{Exercício 1}
 Para cada uma das linguagens abaixo descreva um $AFD$ que a reconhece através do seu diagrama de estados e de uma definição formal
 

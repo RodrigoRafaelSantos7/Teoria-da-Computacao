@@ -7,6 +7,17 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amscls/amsthm.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amscls/amsthm.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
@@ -26,8 +37,6 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/basiclaye
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
-INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
-INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
@@ -145,6 +154,8 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/librari
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/layout.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/layout.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./problemSet3.aux
@@ -184,8 +195,7 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr9.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
@@ -216,6 +226,8 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb
