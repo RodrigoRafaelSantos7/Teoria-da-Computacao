@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[
+    left=1.2in,
+    right=1.2in,
+    top=0.4in,
+    bottom=0.7in,
+    paperheight=11in,
+    paperwidth=8.5in
+]{geometry}
+
+\usepackage{amsthm}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usetikzlibrary{shapes.geometric,fit}
+
+\usepackage{layout}
+\title{Teoria da computação \large \\ Problem set 1}
+\author{Rodrigo Santos\\
+  \small Universidade NOVA de Lisboa\\\\
+}
+\date{\vspace{-5ex}}
+
+\begin{document}
+\maketitle
+
+\subsection*{Exercício 1}
+Sejam $A$, $B$, e $C$ quaisquer conjuntos. Demonstre cada uma das seguintes igualdades:
+
+\subsubsection*{(a) $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$}
+Comecemos por explicitar que para demonstrar a igualdade temos que provar que (1) $A \cup (B \cap C) \subseteq (A \cup B) \cap (A \cup C)$, e (2) $(A \cup B) \cap (A \cup C) \subseteq A \cup (B \cap C)$.
+\\[\baselineskip]
+Vamos provar (1). Deste modo consideremos $x \in A \cup (B \cap C)$ arbitrário. Temos dois casos possíveis, (a) $x \in A$ ou (b) $x \in (B \cap C)$. (a) Se $x \in A$ então, $x \in (A \cup B)$ pela definição de união pois $A \subseteq (A \cup B)$. De forma análoga $x \in (A \cup C)$. Portanto $x \in (A \cup B) \cap (A \cup C)$ pela definição de interseção pois $x \in (A \cup B)$ e $x \in (A \cup C)$. Se $x \in (B \cap C)$ então, $x \in B$ e $x \in C$ pela definição de interseção. Portanto como $x \in B$, $x \in (A \cup B)$ pela definição de união pois $B \subseteq (A \cup B)$. Similarmente $x \in C$, $x \in (A \cup C)$. Concluimos que $x \in (A \cup B) \cap (A \cup C)$ pela definição de interseção pois $x \in (A \cup B)$ e $x \in (A \cup C)$. Juntando (a) e (b) percebemos que se $x \in A \cup (B \cap C)$, $x \in (A \cup B) \cap (A \cup C)$. Portanto $A \cup (B \cap C) \subseteq (A \cup B) \cap (A \cup C)$.
+\\[\baselineskip]
+Vamos provar (2). Deste modo consideremos $x \in (A \cup B) \cap (A \cup C)$ arbitrário. $x \in (A \cup B) \cap (A \cup C) \Leftrightarrow (x \in A \vee x \in B) \wedge (x \in A \vee x \in C)$. Temos dois casos possíveis, (c) $x \in A$ ou (d) $x \notin A$. Comecemos por (c), se $x \in A$ então $x \in A \cup (B \cap C)$ pela definição de união pois $A \subseteq A \cup (B \cap C)$. Segue-se (d), se $x \notin A$ então $x \in B$ e $x \in C$. Pela definição de interseção se $x \in B$ e $x \in C$ então $x \in (B \cap C)$. Como $(B \cap C) \subseteq A \cup (B \cap C)$ e $x \in (B \cap C)$ implica que $x \in A \cup (B \cap C)$. Juntando (c) e (d), se $x \in (A \cup B) \cap (A \cup C)$ então $x \in A \cup (B \cap C)$. Pelo que $(A \cup B) \cap (A \cup C) \subseteq A \cup (B \cap C)$.
+\\[\baselineskip]
+Agregando (1) e (2) chegamos a conclusão que $A \cup (B \cap C) \subseteq (A \cup B) \cap (A \cup C)$ e $(A \cup B) \cap (A \cup C) \subseteq A \cup (B \cap C)$. Logo $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$.
+\end{document}
