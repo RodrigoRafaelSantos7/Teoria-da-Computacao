@@ -1,0 +1,97 @@
+\documentclass{article}
+\usepackage[
+    left=1.2in,
+    right=1.2in,
+    top=0.4in,
+    bottom=0.7in,
+    paperheight=11in,
+    paperwidth=8.5in
+]{geometry}
+
+\usepackage{amsthm}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usetikzlibrary{shapes.geometric,fit}
+
+\usepackage{layout}
+\title{Teoria da computação \large \\ Problem set 0}
+\author{Rodrigo Santos\\
+  \small Universidade NOVA de Lisboa\\\\
+}
+\date{\vspace{-5ex}}
+
+\begin{document}
+\maketitle
+
+\subsection*{Exercício 1}
+Simplifique os seguintes conjuntos:
+
+\subsubsection*{(a) $(\{1,3,5\} \cup \{3,1\}) \cap \{3,5,7\} $}
+$(\{1,3,5\} \cup \{3,1\}) \cap \{3,5,7\} = \{1,3,5\} \cap \{3,5,7\} = \{3,5\}$.
+
+\subsubsection*{(b) $(\{1,2,5\} \setminus \{5,7,9\}) \cup (\{5,7,9\} \setminus \{1,2,5\})$}
+$(\{1,2,5\} \setminus \{5,7,9\}) \cup (\{5,7,9\} \setminus \{1,2,5\}) = \{1,2\} \cup \{7,9\} = \{1,2,7,9\}$
+
+\subsubsection*{(c) $\mathbb{Z} \cap [-1,1[ $}
+$\mathbb{Z} \cap [-1,1[ \ = \{-1,0\}$
+
+\subsubsection*{(d) $(\mathbb{R} \setminus \mathbb{Z}) \cap [0,1] $}
+$(\mathbb{R} \setminus \mathbb{Z}) \cap [0,1] \ = \ ]0,1[$
+
+\subsubsection*{(e) $(\mathbb{Q} \setminus \mathbb{R}) \cup \mathbb{N}$}
+$(\mathbb{Q} \setminus \mathbb{R}) \cup \mathbb{N} = \emptyset \cup \mathbb{N} = \mathbb{N}$
+
+\subsection*{Exercício 2}
+Qual é a negação lógica das seguintes frases?
+
+\subsubsection*{(a) Está a chover ou a nevar.}
+Não está a chover e não está a nevar.
+
+\subsubsection*{(b) Todos os marcianos têm pelo menos um cão.}
+Existe pelo menos um marciano que não tem um cão.
+
+\subsubsection*{(c) Existe um ser humano com mais de 3 metros de altura.}
+nenhum ser humano tem mais do que 3 metros de altura.
+
+\subsection*{Exercício 3}
+Descreva informalmente, mas de forma clara, cada um dos seguintes conjuntos:
+
+\subsubsection*{(a) $\{n \in \mathbb{Z} \ | \ n \geq -100 \wedge n \leq 100\}$}
+Todos os números inteiros (positivos e negativos) maiores ou iguais a $-100$ e menores ou iguais $100$.
+
+\subsubsection*{(b) $\{n \in \mathbb{N} \ | \ \exists k (k \in \mathbb{N} \wedge (n = 3k \vee n = 5k))\}$}
+Todos os numeros naturais multiplos de 3 ou de 5.
+
+\subsubsection*{(c) $\{(a,b) \in \mathbb{Z} \times \mathbb{Z} \ | \ b = a^2\}$}
+Todos os pares de numeros inteiros (positivos e negativos) tais que o elemento $b$ é o quadrado de $a$. Por outras palavras são os pares ordenados em que o segundo elemento é o quadrado do primeiro.
+
+\subsection*{Exercício 4}
+Defina os seguintes conjuntos por compreensão:
+
+\subsubsection*{(a) O conjunto dos racionais maiores que 1 e menores que 10.}
+$\{n \in \mathbb{Q} \ | \ n > 1 \wedge n < 10\}$
+
+\subsubsection*{(b) O conjunto dos inteiros que são quadrados perfeitos.}
+$\{n \in \mathbb{Z} \ | \ n = x^2 \wedge x \in \mathbb{Z}\}$
+
+\subsubsection*{(c) O conjunto dos inteiros que são múltiplos de 10.}
+$\{n \in \mathbb{Z} \ | \ n = 10k \wedge k \in \mathbb{N}\}$
+
+\subsubsection*{(d) O conjunto dos inteiros negativos que são múltiplos de 7.}
+$\{n \in \mathbb{Z} \ | \ n < 0 \wedge n=7k \wedge k \in \mathbb{N}\}$
+
+\subsubsection*{(e) O conjunto dos racionais que não são inteiros.}
+$\{n \in \mathbb{Q} \ | \ n \notin \mathbb{Z}\}$
+
+\subsubsection*{(f) O conjunto dos subconjuntos finitos de N.}
+$\{A \ | \ A \subseteq \mathbb{N} \wedge A \in \mathbb{N}^*\}$
+
+\subsection*{Exercício 5}
+Se o conjunto $A$ tem $a$ elementos e o conjunto $B$ tem $b$ elementos, quantos elementos tem $A \times B$?
+
+\subsubsection*{Resposta:}
+$A \times B$ tem $a * b$ elementos.
+
+
+
+\end{document}

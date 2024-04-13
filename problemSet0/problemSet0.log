@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.4.5)  8 APR 2024 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.4.5)  13 APR 2024 15:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/rodrigosantos/Development/teoria-da-computacao/problemSet3/problemSet3.tex
-(/Users/rodrigosantos/Development/teoria-da-computacao/problemSet3/problemSet3.tex
+**/Users/rodrigosantos/Development/teoria-da-computacao/problemSet0/problemSet0.tex
+(/Users/rodrigosantos/Development/teoria-da-computacao/problemSet0/problemSet0.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
@@ -274,41 +274,12 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryautomata.code.tex
-File: tikzlibraryautomata.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
-File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box62
-\pgfnodeparttwobox=\box63
-\pgfnodepartthreebox=\box64
-\pgfnodepartfourbox=\box65
-\pgfnodeparttwentybox=\box66
-\pgfnodepartnineteenbox=\box67
-\pgfnodeparteighteenbox=\box68
-\pgfnodepartseventeenbox=\box69
-\pgfnodepartsixteenbox=\box70
-\pgfnodepartfifteenbox=\box71
-\pgfnodepartfourteenbox=\box72
-\pgfnodepartthirteenbox=\box73
-\pgfnodeparttwelvebox=\box74
-\pgfnodepartelevenbox=\box75
-\pgfnodeparttenbox=\box76
-\pgfnodepartninebox=\box77
-\pgfnodeparteightbox=\box78
-\pgfnodepartsevenbox=\box79
-\pgfnodepartsixbox=\box80
-\pgfnodepartfivebox=\box81
-))) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
-File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen257
-)) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/layout.sty
 Package: layout 2023-08-20 v1.2e Show layout parameters
 \oneinch=\count286
@@ -345,24 +316,24 @@ Package: layout 2023-08-20 v1.2e Show layout parameters
 ) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count317
-\l__pdf_internal_box=\box82
-) (problemSet3.aux)
-\openout1 = `problemSet3.aux'.
+\l__pdf_internal_box=\box62
+) (problemSet0.aux)
+\openout1 = `problemSet0.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -401,13 +372,13 @@ LaTeX Font Info:    ... okay on input line 33.
 (/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count318
-\scratchdimen=\dimen258
-\scratchbox=\box83
+\scratchdimen=\dimen257
+\scratchbox=\box63
 \nofMPsegments=\count319
 \nofMParguments=\count320
 \everyMPshowfont=\toks38
 \MPscratchCnt=\count321
-\MPscratchDim=\dimen259
+\MPscratchDim=\dimen258
 \MPnumerator=\count322
 \makeMPintoPDFobject=\count323
 \everyMPtoPDFconversion=\toks39
@@ -417,48 +388,33 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}] [2] [3] [4] [5]
-Overfull \hbox (1.50706pt too wide) in paragraph at lines 439--441
-$\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]; \OT1/cmr/m/n/10 0100110) = \OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]; \OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 100110) = \OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]; \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 00110) = \OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]; \OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0110) = \OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]; \OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 110) =
- []
-
-
-Overfull \hbox (1.50706pt too wide) in paragraph at lines 449--450
-$\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]; \OT1/cmr/m/n/10 0100110) = \OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]; \OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 100110) = \OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]; \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 00110) = \OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]; \OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0110) = \OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]; \OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 110) =
- []
-
-[6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 579--581
-
- []
-
-[9] (problemSet3.aux)
+{/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}] [2] (problemSet0.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14597 strings out of 474424
- 312527 string characters out of 5738867
- 1954493 words of memory out of 5000000
- 36701 multiletter control sequences out of 15000+600000
- 565972 words of font info for 67 fonts, out of 8000000 for 9000
+ 13575 strings out of 474424
+ 281584 string characters out of 5738867
+ 1934493 words of memory out of 5000000
+ 35692 multiletter control sequences out of 15000+600000
+ 565626 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,974b,888s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on problemSet3.pdf (9 pages, 202486 bytes).
+ 102i,8n,107p,478b,244s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on problemSet0.pdf (2 pages, 133320 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

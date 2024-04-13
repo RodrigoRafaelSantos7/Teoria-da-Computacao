@@ -566,10 +566,19 @@ Fixamos $n \in \mathbb{N}^+$. Queremos mostrar que o $AFD \ M = (S,\Sigma,\delta
   \end{tikzpicture}
 \end{center}
 
-Vamos definir $M$. Comecemos pelo conjunto de estados $S$. Queremos cobrir todos os multiplos possíveis, comecando no $q_0$, para tal vamos ter $m - 1$ estados tal que $m$ é o número de multiplos possíveis ou seja, $S = \{q_0,q_1,q_2,\dots , q_{m-1}\}$. Intuitivamente $\Sigma = 0$. O estado inicial $q$ será o estado $q_0$, portanto $s=q_0$. O conjunto de estados finais $F$ é dado por um único estado $q_0$ o que se traduz para $F = \{q_0\}$. Falta nos então definir $\delta$. Em cada estado $q_i \in S$ queremos ler o símbolo $'0'$ repetindo ciclicamente até chegar ao estado final $q_0$. Portanto obtemos:
+Vamos definir $M$. Comecemos pelo conjunto de estados $S$. Queremos cobrir todos os multiplos possíveis, comecando no $q_0$, para tal vamos ter $m$ estados tal que $m$ é o número de multiplos possíveis ou seja, $S = \{q_0,q_1,q_2,\dots , q_{m-1}\}$. Intuitivamente $\Sigma = 0$. O estado inicial $q$ será o estado $q_0$, portanto $s=q_0$. O conjunto de estados finais $F$ é dado por um único estado $q_0$ o que se traduz para $F = \{q_0\}$. Falta nos então definir $\delta$. Em cada estado $q_i \in S$ queremos ler o símbolo $'0'$ repetindo ciclicamente até chegar ao estado final $q_0$. Portanto obtemos:
 \[
   \delta(q_i,0) = q_{(i+1) \% n}
 \]
 Desta forma, $M$ reconhece sequência de potências de $0$ cujo expoente seja um múltiplo de $n$. Portanto agora falta-nos provar que $L(M) = L_n$. Para tal vamos demonstrar que $L(M) \subseteq L_n$ e $L_n \subseteq L(M)$. Comecemos por supor que $w \in \Sigma^\ast$, arbitrário. Denotemos a sequência de estados gerado por $w$ em $M$ por $(q_0,q_1,q_2,\dots , q_{i})$ com $i \in \mathbb{N}$. Se $w \in L_n$ pela definição de $L_n \ , q_i \in F$. Como $F = \{q_0\}$, $q_i = q_0$. Ou seja $\delta(w) = q_0 \in F$. Visto que $w$ é arbitrário, segue que $L_n \subseteq L(M)$. Por outro lado, se $w \notin L_n$ então $q_i \notin F$, pelo que $q_i \neq q_0$. Como $F = \{q_0\}$ e $q_i \neq q_0$, $w \notin L(M)$. Logo, $L(M) \subseteq L_n$, e concluímos que $L(M) = L_n$.
+
+\subsection*{Exercício 8}
+Para uma linguagem $L \subseteq \Sigma^\ast$ definimos a operação:
+\[
+  noPrefix(L) = \{w \in L \ | \ \textrm{nenhum prefixo próprio de } w \textrm{ pertence a } L\}.
+\]
+Mostre que se $L$ é regular então $noPrefix(L)$ também é regular.\\
+
+Suponhamos que $L$ é regular, deste modo existe um $AFD \ M = (S,\Sigma,\delta,s,F)$ que reconhece $L$, ou seja $L(M) = L$. Queremos construir um $AFD \ M' = (S',\Sigma, \delta', s', F')$ de modo a reconhecer $noPrefix(L)$ às custas de $M$. Para tal, vamos remover todas as transições de $M$ que saem de estados de aceitação. Ao fazermos isso estamos a garantir que se o automato ler uma substring de $w \in L$, para a computação. Vamos definir $M'$ formalmente. Para tal comecemos
 
 \end{document}

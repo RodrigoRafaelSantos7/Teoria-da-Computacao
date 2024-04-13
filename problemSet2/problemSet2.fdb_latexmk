@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1712498904.31421 "/Users/rodrigosantos/Development/teoria-da-computacao/problemSet2/problemSet2.tex" "problemSet2.pdf" "problemSet2" 1712498905.57932 0
+["pdflatex"] 1713014391.03127 "/Users/rodrigosantos/Development/teoria-da-computacao/problemSet2/problemSet2.tex" "problemSet2.pdf" "problemSet2" 1713014392.14353 0
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1712172771.70863 1004 54797486969f23fa377b128694d548df ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1712172771.70981 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1712172771.85359 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -131,11 +131,11 @@
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty" 1712172787.5928 325 f9f16d12354225b7dd52a3321f085955 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/layout.sty" 1712172783.22706 14907 98a76c7d1c827d251e695e70bd4abbbc ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1712172791.81336 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "/Users/rodrigosantos/Development/teoria-da-computacao/problemSet2/problemSet2.tex" 1712498901.46461 4095 8895b29868e22225311f7006a9ec8428 ""
+  "/Users/rodrigosantos/Development/teoria-da-computacao/problemSet2/problemSet2.tex" 1713014389.17416 4092 2a2bff365e4ef2df164fb417b0b1d1fc ""
   "/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1712351718.16672 219291 82fa3699fc928287b6f775bee64f2fdd ""
   "/Users/rodrigosantos/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1712351752.31408 24238774 c3f745e1984dca3a2b596333bb24ea39 ""
-  "problemSet2.aux" 1712498905.22292 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "problemSet2.tex" 1712498901.46461 4095 8895b29868e22225311f7006a9ec8428 ""
+  "problemSet2.aux" 1713014391.88201 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "problemSet2.tex" 1713014389.17416 4092 2a2bff365e4ef2df164fb417b0b1d1fc ""
   (generated)
   "problemSet2.aux"
   "problemSet2.log"
