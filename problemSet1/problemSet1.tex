@@ -34,4 +34,224 @@ Vamos provar (1). Deste modo consideremos $x \in A \cup (B \cap C)$ arbitrário.
 Vamos provar (2). Deste modo consideremos $x \in (A \cup B) \cap (A \cup C)$ arbitrário. $x \in (A \cup B) \cap (A \cup C) \Leftrightarrow (x \in A \vee x \in B) \wedge (x \in A \vee x \in C)$. Temos dois casos possíveis, (c) $x \in A$ ou (d) $x \notin A$. Comecemos por (c), se $x \in A$ então $x \in A \cup (B \cap C)$ pela definição de união pois $A \subseteq A \cup (B \cap C)$. Segue-se (d), se $x \notin A$ então $x \in B$ e $x \in C$. Pela definição de interseção se $x \in B$ e $x \in C$ então $x \in (B \cap C)$. Como $(B \cap C) \subseteq A \cup (B \cap C)$ e $x \in (B \cap C)$ implica que $x \in A \cup (B \cap C)$. Juntando (c) e (d), se $x \in (A \cup B) \cap (A \cup C)$ então $x \in A \cup (B \cap C)$. Pelo que $(A \cup B) \cap (A \cup C) \subseteq A \cup (B \cap C)$.
 \\[\baselineskip]
 Agregando (1) e (2) chegamos a conclusão que $A \cup (B \cap C) \subseteq (A \cup B) \cap (A \cup C)$ e $(A \cup B) \cap (A \cup C) \subseteq A \cup (B \cap C)$. Logo $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$.
+
+
+\subsubsection*{(b) $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$}
+Comecemos por explicitar que para demonstrar a igualdade temos que provar que (1) $A \cap (B \cup C) \subseteq (A \cap B) \cup (A \cap C)$, e (2) $(A \cap B) \cup (A \cap C) \subseteq A \cap (B \cup C)$.
+\\[\baselineskip]
+Vamos provar (1). Suponhamos $x \in A \cap (B \cup C)$ arbitrário. Deste modo $x \in A \wedge (x \in B \vee x \in C)$, portanto temos dois casos possíveis (a)
+$(x \in A \wedge x \in B )$ e (b)$(x \in A \wedge x \in C)$. (a) Sendo $(x \in A \wedge x \in B )$ então $x \in (A \cap B)$ pela definição de interseção. Se $x \in (A \cap B)$, $x \in ((A \cap B) \cup (A \cap C))$ pela definição de união pois $(A \cap B) \subseteq ((A \cap B) \cup (A \cap C))$. (b) Sendo $(x \in A \wedge x \in C)$ de forma análoga $x \in ((A \cap B) \cup (A \cap C))$. Portanto $x \in A \cap (B \cup C)$ implica que $x \in ((A \cap B) \cup (A \cap C))$ logo juntando (a) e (b), $A \cap (B \cup C) \subseteq (A \cap B) \cup (A \cap C)$.
+\\[\baselineskip]
+Vamos provar (2). Suponhamos que $x \in ((A \cap B) \cup (A \cap C))$ arbitrário. Deste modo temos dois casos possíveis (c) $x \in (A \cap B)$ ou (d) $x \in (A \cap C)$. (c) Suponhamos que $x \in (A \cap B)$ então $x \in A \wedge x \in B$. Se $x \in B$ então $x \in (B \cup C)$ pela definição de união pois $B \subseteq (B \cup C)$. Portanto  $x \in A \wedge x \in (B \cup C)$ o que pela definição de interseção é o mesmo que dizer que $x \in (A \cap (B \cup C))$. (d) Se $x \in (A \cap C)$, $x \in A \wedge x \in C$. Similarmente a (c) chegamos a conclusão que se $x \in (A \cap C)$ implica que $A \cap (B \cup C)$. Juntando (c) e (d), $(A \cap B) \cup (A \cap C) \subseteq A \cap (B \cup C)$.
+\\[\baselineskip]
+Juntando (1) e (2) concluimos que $A \cap (B \cup C) \subseteq (A \cap B) \cup (A \cap C)$ e $(A \cap B) \cup (A \cap C) \subseteq A \cap (B \cup C)$. Concluimos que $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$.
+
+\subsubsection*{(c) $A \cap (A \cup B) = A$}
+Comecemos por explicitar que para demonstrar a igualdade temos que provar que (1) $A \cap (A \cup B) \subseteq A$, e (2) $A \subseteq A \cap (A \cup B)$.
+\\[\baselineskip]
+Vamos provar (1). Suponhamos que $x \in (A \cap (A \cup B))$ arbitrário. Se $x \in (A \cap (A \cup B))$ então $x \in A \wedge (x \in A \vee x \in B)$. Logo $x
+  \in A$. Trivialmente $A \subseteq A$. Portanto se $x \in (A \cap (A \cup B))$ então $x \in A$. Logo (1).
+\\[\baselineskip]
+Vamos provar (2). Suponhamos que $x \in A$ arbitrário. Se $x \in A$, $x \in (A \cup B)$ pela definição de união pois $A \subseteq (A \cup B)$. Deste modo $x \in A$ e $x \in (A \cup B)$ que pela definição de interseção é igual a $x \in (A \cap (A \cup B))$. Portanto se $x \in A$ então $x \in (A \cap (A \cup B))$. Concluimos (2).
+\\[\baselineskip]
+Juntando (1) e (2) temos que $A \cap (A \cup B) \subseteq A$ e $A \subseteq A \cap (A \cup B)$. Logo $A \cap (A \cup B) = A$.
+
+\subsubsection*{(d) $(A \setminus B) \cup (A \cap B) = A$}
+Comecemos por explicitar que para demonstrar a igualdade temos que provar que (1) $(A \setminus B) \cup (A \cap B) \subseteq A$ e (2) $A \subseteq (A \setminus B) \cup (A \cap B)$.
+\\[\baselineskip]
+Vamos provar (1). Suponhamos que $x \in (A \setminus B) \cup (A \cap B)$ arbitrário. Temos dois casos possíveis. $x \in (A \setminus B)$ ou $x \in (A \cap B)$. Se $x \in (A \setminus B)$ então por definição $x \in A \wedge x \notin B$, logo $x \in A$. Se $x \in (A \cap B)$ por definição de interseção $x \in A$ e $x \in B$ pelo que $x \in A$. Logo se $x \in (A \setminus B) \cup (A \cap B)$ então $x \in A$. Portanto (1).
+\\[\baselineskip]
+Vamos provar (2). Suponhamos que $x \in A$ arbitrário. Temos dois casos possíveis $x \in B$ ou $x \notin B$. Se $x \in B$ então $x \in (A \cap B)$ pela definição de interseção pois $x \in A$ e $x \in B$. Se $x \in (A \cap B)$, $x \in (A \setminus B) \cup (A \cap B)$ pela definição de união pois $x \in (A \cap B)$ e $(A \cap B) \subseteq (A \setminus B) \cup (A \cap B)$. Se $x \notin B$ então $x \in (A \setminus B)$ pela definição de exclusão pois $x \in A$ e $x \notin B$. De forma análoga $x \in (A \setminus B) \cup (A \cap B)$. Portanto concluimos (2).
+\\[\baselineskip]
+Juntando (1) e (2) temos que $(A \setminus B) \cup (A \cap B) \subseteq A$ e $A \subseteq (A \setminus B) \cup (A \cap B)$. Logo $(A \setminus B) \cup (A \cap B) = A$.
+
+\subsection*{Exercício 2}
+Encontre o erro na seguinte “demonstração” de que 2 = 1
+\subsubsection*{Resposta:}
+Na demonstração quando dividimos ambos os lados da equação por $(a - b)$ temos que garantir que $(a - b) \neq 0 \Leftrightarrow a \neq b$. Quando escolhemos $a = b = 1$ violamos esta restrição. O que invalida esta demonstração.
+
+\subsection*{Exercício 3}
+
+Demonstre as seguintes asserções por indução:
+
+\subsubsection*{(a) $\sum_{i = 0}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}$.}
+
+Passo base: $n=1$
+\[
+  \sum_{i = 0}^{1} i^2 =0^2 + 1^2 = \frac{1(1+1)(2(1)+1)}{6} = \frac{6}{6} = 1
+\]
+O caso base é verdadeiro.
+\\[\baselineskip]
+Passo de indução: Suponhamos que a fórmula é verdadeira para $n=k$, ou seja
+\[
+  \sum_{i = 0}^{k} i^2 = \frac{k(k+1)(2k+1)}{6}
+\]
+Vamos provar que a fórmula é verdadeira para $n=k+1$, ou seja:
+\\[\baselineskip]
+\[
+  \sum_{i = 0}^{k+1} i^2 =
+  \sum_{i = 0}^{k} i^2 + (k +1)^2=
+  \frac{k(k+1)(2k+1)}{6} + (k +1)^2 =
+  \frac{k(k+1)(2k+1)+6(k +1)^2}{6} =
+  \frac{(k+1)[(k+2)(2k+3)]}{6}
+\]
+\\[\baselineskip]
+Portanto a fórmula é verdadeira para $n=k+1$. Concluímos então por indução que:
+\[
+  \forall_n \in \mathbb{N} \ \sum_{i = 0}^{n} i^2 = \frac{n(n+1)(2n+1)}{6} \textrm{ é valida.}
+\]
+
+\subsubsection*{(b) $\sum_{i = 0}^{n} i^3 = \frac{n^2 (n+1)^2}{4}$.}
+
+Passo base: $n=1$
+\[
+  \sum_{i = 0}^{1} i^3 =0^3 + 1^3 = \frac{1^2 (1+1)^2}{4} = \frac{4}{4} = 1
+\]
+O caso base é verdadeiro.
+\\[\baselineskip]
+Passo de indução: Suponhamos que a fórmula é verdadeira para $n=k$, ou seja
+\[
+  \sum_{i = 0}^{k} i^3 = \frac{k^2 (k+1)^2}{4}
+\]
+\\[\baselineskip]
+Vamos provar que a fórmula é verdadeira para $n=k+1$, ou seja
+\[
+  \sum_{i = 0}^{k+1} i^3 =
+  \sum_{i = 0}^{k} i^3 + (k+1)^3 =
+  \frac{k^2 (k+1)^2}{4} + (k+1)^3 =
+  \frac{k^2 (k+1)^2 + 4(k+1)^3}{4} =
+  \frac{(k+1)^2[(k+2)^2]}{4}
+\]
+\\[\baselineskip]
+Portanto a fórmula é verdadeira para $n=k+1$. Concluímos então por indução que:
+\\[\baselineskip]
+\[
+  \forall_n \in \mathbb{N} \ \sum_{i = 0}^{n} i^3 = \frac{n^2 (n+1)^2}{4} \textrm{ é valida.}
+\]
+
+\subsubsection*{(c) $n^3+2n \textrm{ é divisível por 3 para todo o } n \in \mathbb{N}$.}
+
+Passo base: $n=1$
+\[
+  1^3 + 2(1) = 1 + 2 = 3
+\]
+Que é inequivocamente divisível por 3. Portanto o caso base é verdadeiro.
+\\[\baselineskip]
+Passo de indução: Suponhamos que a fórmula é verdadeira para $n=k$, ou seja
+\[
+  k^3 + 2k \textrm{ é divisível por 3.}
+\]
+Vamos provar que a fórmula é verdadeira para $n=k+1$, ou seja
+\\[\baselineskip]
+\[
+  (k+1)^3 + 2(k+1) = (k+1)(k+1)^2 + 2k + 2 = k^3 + 3k^2 + 3k + 2k + 3 = (k^3 + 2k) + (3k^2+3k+3)
+\]
+\\[\baselineskip]
+pelo passo de indução $k^3 + 2k$ é igual a $3m$ onde m é um número inteiro. Temos então:
+\\[\baselineskip]
+\[
+  3m + (3k^2+3k+3) = 3(m + k^2 + k + 1)
+\]
+\\[\baselineskip]
+Onde $(m + k^2 + k + 1)$ é um número inteiro. Provamos então por indução que:
+\\[\baselineskip]
+\[
+  \forall_n \in \mathbb{N} \ n^3 + 2n \textrm{ é divisível por 3 é valida.}
+\]
+
+\subsubsection*{(d) $9^n-1 \textrm{ é divisível por 8 para todo o } n \in \mathbb{N}^+$.}
+
+Passo base: $n = 1$
+\\[\baselineskip]
+\[
+  9^1 - 1 = 8
+\]
+\\[\baselineskip]
+Que é inequivocamente divisível por 8. Portanto o caso base é verdadeiro.
+\\[\baselineskip]
+Passo de indução: Suponhamos que a fórmula é verdadeira para $n=k$, ou seja
+\\[\baselineskip]
+\[
+  9^k - 1 = 8m \textrm{ em que m é um numero inteiro positivo maior que zero.}
+\]
+\\[\baselineskip]
+Vamos provar que a fórmula é verdadeira para $n=k+1$, ou seja
+\\[\baselineskip]
+\[
+  9^{k+1} - 1 =  9^k9^1 - 1 = 9(9^k - 1)+8
+\]
+\\[\baselineskip]
+Pelo passo de indução temos que $9^k - 1 = 8m$. Portanto
+\\[\baselineskip]
+\[
+  9(8m)+8 = 8(9m + 1)
+\]
+\\[\baselineskip]
+Onde $9m+1$ é um número inteiro positivo maior que zero. Logo $9^{k+1} - 1$ é divisível por 8.
+\\[\baselineskip]
+Por indução provamos que
+\\[\baselineskip]
+\[
+  \forall_n \in \mathbb{N}^+ \ 9^n-1 \textrm{ é divisível por 8 é valida.}
+\]
+
+\subsubsection*{(e) $2^{n+1} > n^2 \textrm{ para todo o } n \in \mathbb{N}^+$.}
+
+Passo base: $n=1$
+\\[\baselineskip]
+\[
+  2^2 > 1^2 \Leftrightarrow 4>1
+\]
+\\[\baselineskip]
+Portanto o caso base é verdadeiro.
+\\[\baselineskip]
+Passo de indução: Suponhamos que a fórmula é verdadeira para $n=k$, ou seja
+\\[\baselineskip]
+\[
+  2^{k+1} > k^2
+\]
+\\[\baselineskip]
+Vamos provar que a fórmula é verdadeira para $n=k+1$, ou seja
+\\[\baselineskip]
+\[
+  2^{k+2} > {(k+1)}^{2}
+\]
+\[
+  2^{(k+1)+1} = 2 \times 2^{k+1}
+\]
+\\[\baselineskip]
+Sabemos que $2^{k+1} > k^2$ pela hipotese de indução. Então
+\\[\baselineskip]
+\[
+  2 \times 2^{k+1} > 2 \times k^2
+\]
+\\[\baselineskip]
+Queremos provar que $2 \times k^2 > {(k+1)}^{2}$. Expandindo ${(k+1)}^2$ obtemos:
+\\[\baselineskip]
+\[
+  2 \times k^2 > {(k+1)}^{2} \leftrightarrow 2k^2 > k^2 + 2k + 1 \leftrightarrow k^2 > 2k + 1
+\]
+\\[\baselineskip]
+Como $k^2 > 2k + 1$ para $k > 1$ que é verdade pois ${(k - 1)}^2 > 0$.
+\\[\baselineskip]
+Concluimos então que $2^{k+2} > {(k+1)}^{2}$, o que prova o passo de indução.
+\\[\baselineskip]
+Por indução provamos que $2^{n+1} > n^2 \textrm{ para todo o } n \in \mathbb{N}^+$
+
+\subsection*{Exercício 4}
+Sejam $A, B, \textrm{ e } C$ conjuntos finitos quaisquer e $f : A \longmapsto B$ e $g : B \longmapsto C$ funções totais quaisquer. Denotamos por $g \circ f : A \longmapsto C$ a função composta $(g \circ f)(x) = g(f(x))$.
+
+\subsubsection*{(a) Se $f$ e $g$ são injetivas, então $(g \circ f)$ também é injetiva.}
+
+Uma função é injetiva se, $h:x \longmapsto y \ \forall_{x1, x2} \in x$ então se $h(x_1)=h(x_2) \Rightarrow x_1 =x_2$. Como $g$ é injetiva, $f(x_1)$ = $f(x_2)$. Visto que $f$ é injetiva,
+$x_1=x_2$. Portanto se $(g \circ f)(x_1) = (g \circ f)(x_2)$, então $x_1=x_2$. Logo $(g \circ f)(x)$ é injetiva.
+
+\subsubsection*{(b) Se $f$ e $g$ são sobrejetivas, então $g \circ f$ também é sobrejetiva.}
+A função $g \circ f$ é sobrejetiva se $\forall_c \in C, \ \exists_a \in A:(g \circ f)(a) = c$. Como $g$ é sobrejetiva então $\forall_c \in C, \ \exists_b \in B:g(b) = c$. Como $f$ é sobrejetiva então $\forall_b \in B, \ \exists_a \in A:f(a) = b$. Assim $(g \circ f)(a) = g(f(a)) = g(b) = c.$ Portanto $
+  (g \circ f)(x)$ é sobrejetiva.
+
+\subsubsection*{(c) Se $f$ e $g$ são bijetivas, então $g \circ f$ também é bijetiva.}
+
+Usando as provas acima provamos que $g \circ f$ é injetiva e sobrejetiva. Logo $g \circ f$ é bijetiva.
+
 \end{document}
